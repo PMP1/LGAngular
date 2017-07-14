@@ -1,0 +1,11 @@
+﻿
+<container>
+    <a routerLink='/'>&lt; Back</a>
+
+    <div *ngIf="employee">
+        <h1>{{employee.FirstName | uppercase}} {{employee.LastLame | uppercase}}</h1>
+        <textinputa name="Firstname" [model]="employee.FirstName" (modelChange)="employee.FirstName=$event"></textinputa>
+        <textinputa name="Lastname" [model]="employee.LastLame" (modelChange)="employee.LastLame=$event"></textinputa>
+        <textinputa name="Age" [model]="employee.Age" (modelChange)="employee.Age=$event"></textinputa>
+    </div>
+</container>

@@ -1,0 +1,18 @@
+﻿.wrapper {
+    display: table;
+}
+
+.firstname {
+    display: table-cell;
+    width: 200px;
+}
+
+.lastname {
+    display: table-cell;
+    width: 200px;
+}
+
+.age {
+    display: table-cell;
+    width: 100px;
+}
